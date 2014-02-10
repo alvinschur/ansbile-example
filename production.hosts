@@ -1,0 +1,9 @@
+[webserver]
+# jersey or node03
+#0.0.0.0 ansible_ssh_port=49168 ansible_ssh_user=bison 
+
+# other groups might be
+# [sidekiq]
+# [redis]
+# [dbserver]
+
