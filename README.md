@@ -1,5 +1,5 @@
 
-= Setup with Docker
+# Setup with Docker
 
 From http://docker.io
 
@@ -16,13 +16,13 @@ From http://docker.io
     sudo docker stop <container_id>
     sudo docker kill <container_id>
 
-= Examples with Ansible
+# Examples with Ansible
 
 ssh is already configured to connect to the hosts using ~/.ssh/config to
 specify the IdentityFile and optionally a port, username and so on.
 
 
-== Adhoc Usage
+## Adhoc Usage
 
 We can run adhoc commands on hosts with the ansible command
 http://docs.ansible.com/intro_adhoc.html
